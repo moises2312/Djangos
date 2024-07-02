@@ -1,0 +1,155 @@
+
+/* Estilos para el cuerpo del documento */
+body {
+    height: 120vh;
+    background: linear-gradient(to top, #ffffff8e 10%, rgba(255, 255, 255, 0.397) 100%) no-repeat;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el navbar */
+
+    .container-fluid {
+    border: 1px solid #ff9900; 
+    border-radius: 20px; 
+    padding: 200x; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 8px rgba(40, 51, 51, 0.411); 
+    font-weight: bold;
+    font-size: 20px;
+    color: #070707;
+    text-shadow: 1px  #000;
+}
+
+.navbar-toggler{
+    background-color: #f3b302;
+    font-weight: bold;
+}
+
+
+.navbar .navbar-nav .nav-link {
+    color: #050505;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #fd9712e1;
+}
+
+.navbar .navbar-toggler {
+    border-color: #ff9900;
+}
+
+
+
+/* Estilos para los cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card-title {
+    color: #000000;
+}
+
+.card-text {
+    color: #333;
+}
+
+
+
+/* inicioooooo */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  background: linear-gradient(to top, #ffffff8e 10%, rgba(255, 153, 0, 0.473) 100%) no-repeat;
+  
+}
+
+.card {
+  transition: transform 0.3s;
+  background: linear-gradient(to top, #ffffff8e 20%, rgba(255, 153, 1, 0.774) 100%) no-repeat;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.link-bloque {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*  foooter*/
+.container-footer {
+    background-color: #f4f4f4;
+    padding: 5px 5px;
+    text-align: center;
+    
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    border: 2px solid orange;
+    text-shadow: 1px 1px 1x #000;
+}
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: 1px;
+    text-shadow: 1px  #000;
+}
+
+
+.contact span, .contact-form input {
+    display: block;
+    margin-bottom: 1px;
+
+}
+.contact-form input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid orange;
+    border-radius: 200px;
+    text-shadow: 1px  #000;
+}
+.btn {
+    background:#ebe6e6;
+    color: rgb(0, 0, 0);
+    padding: 5px 40px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    text-shadow: 1px 1px 1px  #000;
+
+}
+.btn:hover {
+    background-color: rgb(253, 135, 0);
+}
+.footer-bottom {
+    background-color: #ffffff;
+    padding: 10px;
+    border-top: 1px solid orange;
+}
+hr {
+    border: 1px solid orange;
+    width: 100%;
+    margin: 1px auto;
+}

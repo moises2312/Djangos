@@ -1,0 +1,56 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd; /* Naranja claro para el fondo */
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  background: linear-gradient(to top, #ffffff8e 20%, rgba(255, 153, 1, 0.404) 100%) no-repeat;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.col {
+  padding: 0 0.75rem;
+  margin-bottom: 1.5rem;
+  flex: 1 1 10%; /* Las tarjetas abarcan todo el ancho */
+}
+
+.card img {
+
+  width: 30%;
+  height: auto;
+  border-bottom: 5px solid #f8a409;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+button {
+  margin: 5px;
+}
+
+button[type="submit"],
+button[type="reset"],
+button[id="crear_usuario_prueba"],
+button[onclick] {
+  background-color: #ff8c00; /* Naranja oscuro para los botones */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover,
+button[id="crear_usuario_prueba"]:hover,
+button[onclick]:hover {
+  background-color: #e67e22; /* Un poco más oscuro en el hover */
+}
+
